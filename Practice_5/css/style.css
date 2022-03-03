@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color:black;
+
+    top:0;
+    position: fixed;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    left:0;
+    right:0;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container:first-child {
+    margin-left: 140px;
+}
+
+.header-container:last-child {
+    right: 0;
+    margin-right: 140px;
+}
+
+.h1header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+main {
+    margin-top: 120px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.card-holder {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.card {
+    background-color: black;
+    width: 49.1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-bottom: 30px;
+}
+
+.headerCard {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+
+    display: flex;
+}
+
+.links-header-div {
+    height: 120px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+}
+
+footer {
+    background-color: black;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: white;
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1, h2 {
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+a {
+    font-size: 25px;
+}
+a:link {
+    color: black; 
+    border: none;
+    text-decoration: none;
+}
+a:visited {
+    color: black; 
+    border: none;
+    text-decoration: none;
+}
+a:hover {
+    color: black; 
+    border: none;
+    text-decoration: none;
+}
+a:active {
+    color: black; 
+    border: none;
+    text-decoration: none;
+}
+
+.header-link {
+    font-size: 25px;
+}
+.header-link:link {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
+.header-link:visited {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
+.header-link:hover {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
+.header-link:active {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
