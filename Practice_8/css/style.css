@@ -1,0 +1,217 @@
+:root {
+    --bg-colour: rgb(225, 126, 126); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    height: 8vh;
+    width: 100%;
+    background-color: var(--bg-colour);
+
+    /* top: 0; */
+    /* position: fixed; */
+
+    display: flex;
+}
+
+.header-container {
+    left:0;
+    right:0;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container:first-child {
+    margin-left: 140px;
+}
+
+.header-container:last-child {
+    right: 0;
+    margin-right: 140px;
+}
+
+.h1header {
+    font-size: 60px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+
+.menu_elem{
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.menu_elem:last-of-type{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+main {
+    flex: 1;
+
+    background-image: url("../img/death-stranding-fan-art.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 78%;
+}
+
+.card-wrapper{
+    margin-left: 85px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 400px;
+}
+
+.card {
+    width: 100%;
+    /* height: 500px; */
+
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+
+    background-color: var(--bg-colour);
+
+    box-sizing: border-box;
+
+    padding: 50px;
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+
+.card > p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card > p:first-child{
+    margin-top: 0px;
+}
+
+input[type=text] {
+    width: 100%;
+
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+
+    padding-bottom: 3px;
+
+    color: white;
+}
+input[type=text]:focus{
+    outline: none;
+}
+
+.button{
+    width: 300px;
+    height: 80px;
+
+    box-sizing: border-box;
+
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: var(--bg-colour);
+    height: 8vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-footer{
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .menu_elem{
+        display: none;
+        text-align: center;
+        margin-right: 20px;
+        align-self: center;
+    }
+    
+    .menu_elem:last-of-type{
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .card-wrapper{
+        margin: auto;
+        max-width: 350px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .card-wrapper{
+        margin: auto;
+    }
+}
+
+a:link {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
+a:visited {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
+a:hover {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
+a:active {
+    color: white; 
+    border: none;
+    text-decoration: none;
+}
