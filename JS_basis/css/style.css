@@ -1,0 +1,22 @@
+:root {
+    --bg-colour: rgb(225, 126, 126); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ex{
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    border: 3px black solid;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
